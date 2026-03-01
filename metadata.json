@@ -1,0 +1,5 @@
+{
+  "name": "Visualizador de MCM",
+  "description": "Aplicación interactiva para visualizar y calcular el Mínimo Común Múltiplo (MCM) usando rectas numéricas.",
+  "requestFramePermissions": []
+}
