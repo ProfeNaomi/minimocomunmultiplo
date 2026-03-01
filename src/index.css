@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 8px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #f5f5f4;
+    border-radius: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #d6d3d1;
+    border-radius: 4px;
+  }
+}
